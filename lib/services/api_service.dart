@@ -74,7 +74,7 @@ class ApiService {
       if (email.trim().isNotEmpty && password.isNotEmpty) {
         final token = 'dummy_token_${DateTime.now().millisecondsSinceEpoch}';
 
-        debugPrint('Login berhasil untuk email: $email');
+        debugPrint('Login berhasil');
         return token;
       }
 
